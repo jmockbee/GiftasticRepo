@@ -30,7 +30,7 @@
      console.log(tempSearch);
      var apiKey = "nZDC9o03pF1neUTPso75tLqGxC8LUwkO"
      var searchNum = 10;
-     var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + tempSearch + "&api_key=" + apiKey + "&limit=" + searchNum;
+     var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + tempSearch + "&api_key=" + apiKey + "&limit=" + searchNum;
 
 
      // Perfoming an AJAX GET request to our queryURL
